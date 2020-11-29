@@ -3,12 +3,15 @@
 
 {
     'name': 'Sales Order Refresh',
-    'version': '13.0',
+    'version': '14.0',
     'summary': 'This module allows user to reload the so screen without refresh the webpage',
     'description': 'This module allows user to reload the so screen without refresh the webpage',
     'category': 'Sales',
     'author': 'Manish Bohra',
     'website': 'www.linkedin.com/in/manishkumarbohra',
+    'maintainer': 'Manish Bohra',
+    'support': 'manishkumarbohra@outlook.com',
+    'sequence': '10',
     'license': 'LGPL-3',
     "data": [
         'views/so_refresh.xml',
@@ -17,5 +20,5 @@
     'depends': ['sale', 'sale_management'],
     'installable': True,
     'auto_install': False,
-    'application':True,
+    'application': True,
 }
